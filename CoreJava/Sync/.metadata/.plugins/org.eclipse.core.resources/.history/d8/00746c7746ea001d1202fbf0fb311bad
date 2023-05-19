@@ -1,0 +1,20 @@
+package CollectionsPractise;
+
+import java.util.HashSet;
+
+public class EgHashset {
+	public static void main(String[] args) {
+		HashSet<Integer> hs=new HashSet<>();
+		hs.add(1);
+		hs.add(2);
+		hs.add(3);
+		hs.add(4);
+		System.out.println(hs);
+		int i=4;
+		while(!hs.isEmpty()) {
+			if(hs.contains(i)) { hs.remove(1); }
+			i--;
+		}
+		
+	}
+}

@@ -1,0 +1,11 @@
+package Syncthreadpractise;
+
+class Th2 extends Thread{
+	
+}
+
+public class Egsleep {
+	public static void main(String[] args) {
+		
+	}
+}

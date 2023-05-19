@@ -1,0 +1,24 @@
+package CollectionsPractise;
+
+import java.util.*;
+
+public class EgLinkedHashSet {
+	public static void main(String[] args) {
+		List<Integer> arl=new ArrayList<>();
+		arl.add(2);
+		arl.add(4);
+		
+//		HashSet<Integer> myset=new HashSet<>(6);      // jumbled order in output
+//		TreeSet<Integer> myset=new TreeSet<>(6);		 // maintains a default or custom sorting order 
+//		LinkedHashSet<Integer> myset=new LinkedHashSet<>(6);    // maintains the insertion order
+		LinkedHashSet<Integer> myset=new LinkedHashSet<>(arl);
+		myset.add(20);
+		myset.add(10);
+		myset.add(30);
+		myset.add(50);
+		myset.add(40);
+		
+		System.out.println(myset);
+		
+	}
+}

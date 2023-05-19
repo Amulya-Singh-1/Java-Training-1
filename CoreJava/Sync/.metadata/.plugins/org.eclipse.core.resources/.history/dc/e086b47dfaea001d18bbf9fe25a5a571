@@ -1,0 +1,18 @@
+package Syncthreadpractise;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+
+public class EgTreeMap {
+	public static void main(String[] args) {
+//		TreeMap<Integer, Character> tm2=new TreeMap<>();
+//		LinkedHashMap<Integer, Character> tm2=new LinkedHashMap<>();
+		HashMap<Integer, Character> tm2=new HashMap<>();
+		tm2.putIfAbsent(5, 'E');
+		tm2.putIfAbsent(5, 'A');
+		tm2.put(3, 'A');
+		tm2.put(4, 'D');
+		System.out.println(tm2);
+	}
+}

@@ -1,0 +1,26 @@
+package Syncthreadpractise;
+
+import java.util.HashMap;
+import java.util.LinkedHashMap;
+import java.util.TreeMap;
+
+import javax.sound.midi.Soundbank;
+
+public class EgTreeMap {
+	public static void main(String[] args) {
+		TreeMap<Integer, Character> tm2=new TreeMap<>();
+//		LinkedHashMap<Integer, Character> tm2=new LinkedHashMap<>();
+//		HashMap<Integer, Character> tm2=new HashMap<>();
+		tm2.putIfAbsent(5, 'E');
+		tm2.putIfAbsent(5, 'A');
+		tm2.put(3, 'A');
+		tm2.put(4, 'D');
+		tm2.put(1, 'A');
+		tm2.put(6, 'G');
+		tm2.put(8, 'H');
+		System.out.println(tm2);
+		System.out.println(tm2.headMap(4));
+		System.out.println(tm2.tailMap(4));
+		System.out.println(tm2.subMap(3, 6));
+	}
+}

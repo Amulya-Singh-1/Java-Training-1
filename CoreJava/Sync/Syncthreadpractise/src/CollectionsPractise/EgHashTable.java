@@ -1,0 +1,16 @@
+package CollectionsPractise;
+
+import java.util.*;
+
+public class EgHashTable {
+	public static void main(String[] args) {
+		Hashtable<Integer, String> ht=new Hashtable<>();
+		ht.put(1, "a");
+		ht.put( 5, "def");
+		ht.put(2,  "abc");
+		ht.put(7, "mno");
+		ht.put(3, " ghi");
+		System.out.println(ht);
+//		System.out.println("after rehashing : " + );
+	}
+}

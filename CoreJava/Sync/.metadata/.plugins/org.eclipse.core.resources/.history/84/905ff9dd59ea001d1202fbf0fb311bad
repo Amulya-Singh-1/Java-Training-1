@@ -1,0 +1,19 @@
+package CollectionsPractise;
+
+import java.util.*;
+
+public class EgLinkedHashSet {
+	public static void main(String[] args) {
+		HashSet<Integer> myset=new HashSet<>();
+//		TreeSet<Integer> myset=new TreeSet<>();
+//		LinkedHashSet<Integer> myset=new LinkedHashSet<>();
+		myset.add(20);
+		myset.add(10);
+		myset.add(30);
+		myset.add(50);
+		myset.add(40);
+		
+		System.out.println(myset);
+		
+	}
+}

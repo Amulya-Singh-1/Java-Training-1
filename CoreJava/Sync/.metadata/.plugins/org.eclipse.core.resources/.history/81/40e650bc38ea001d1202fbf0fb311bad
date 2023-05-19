@@ -1,0 +1,7 @@
+package CollectionsPractise;
+
+class EgLinkedList {
+	public static void main(String[] args) {
+		System.out.println(" will a default class with main method execute ? ");
+	}
+}

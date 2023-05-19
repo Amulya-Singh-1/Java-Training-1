@@ -1,0 +1,18 @@
+package Syncthreadpractise;
+
+import java.util.ArrayList;
+import java.util.ListIterator;
+
+public class Eglistiterator {
+	public static void main(String[] args) {
+		ArrayList<Integer> arl=new ArrayList<>();
+		arl.add(7);
+		arl.add(5);
+		arl.add(6);
+		arl.add(9);
+		ListIterator<Integer> litr = arl.listIterator();
+		while(litr.hasNext()) {
+			System.out.println(litr.next());
+		}
+	}
+}

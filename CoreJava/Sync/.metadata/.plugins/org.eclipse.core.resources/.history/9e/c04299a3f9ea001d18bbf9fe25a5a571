@@ -1,0 +1,12 @@
+package Syncthreadpractise;
+
+import java.util.TreeMap;
+
+public class EgTreeMap {
+	public static void main(String[] args) {
+		TreeMap<Integer, Character> tm2=new TreeMap<>();
+		tm2.putIfAbsent(5, 'E');
+		tm2.putIfAbsent(5, 'A');
+		System.out.println(tm2);
+	}
+}

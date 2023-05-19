@@ -1,0 +1,22 @@
+package CollectionsPractise;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class Synchronizedarraylist {
+	public static void main(String[] args) {
+		List<Integer> arl = new ArrayList<>();
+		
+//		synchronized (arl) {
+		arl.add(1);
+		arl.add(2);
+		arl.add(3);
+		arl.add(4);
+			Iterator it = arl.iterator();
+			while(it.hasNext()) {
+				System.out.println(it.next());
+			}
+//		}
+	}
+}

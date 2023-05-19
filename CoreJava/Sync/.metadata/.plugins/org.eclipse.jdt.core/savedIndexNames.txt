@@ -1,0 +1,4 @@
+INDEX VERSION 1.132+/home/ctp/Practise/CoreJava/Sync/.metadata/.plugins/org.eclipse.jdt.core
+2942210139.index
+695073915.index
+1865797976.index

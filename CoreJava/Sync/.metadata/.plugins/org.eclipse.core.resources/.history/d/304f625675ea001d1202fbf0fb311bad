@@ -1,0 +1,18 @@
+package CollectionsPractise;
+
+import java.util.ArrayDeque;
+import java.util.Deque;
+
+public class EgArraydeque {
+	public static void main(String[] args) {
+		Deque<Integer> dq=new ArrayDeque<>(5);
+		dq.addFirst(3);
+		dq.addLast(6);
+		dq.add(9);
+		System.out.println(dq);
+		dq.pollFirst();
+		dq.pollLast();
+		System.out.println(dq);
+		
+	}
+}

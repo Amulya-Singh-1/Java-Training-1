@@ -1,0 +1,43 @@
+
+public class Synceg {
+
+	class printing{
+		void print(int n) {
+			for(int i=1;i<n;i++) {
+				for(int j=1;j<=i;j++) {
+					System.out.print('*');
+				}
+				System.out.println();
+			}
+		}
+	}
+		
+	class A extends Thread{
+		
+		printing p;
+		public A() {
+			this.p=p;
+		}
+		
+		public void run() {
+			System.out.println("yea the threadA	is running");
+		}
+	}
+	
+	class B extends Thread{
+		printing p;
+		public B() {
+			this.p=p;
+		}
+		
+		public void run() {
+			System.out.println("yea thread B is running");
+		}
+	}
+	
+	public static void main(String[] args) {
+	
+
+	}
+
+}

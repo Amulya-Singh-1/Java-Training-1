@@ -1,0 +1,10 @@
+package CollectionsPractise;
+
+class Tester {
+	static {
+		System.out.println("static blocks can run make a class run without a main method ????  tf");
+	}
+}
+//class A{
+//	
+//}

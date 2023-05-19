@@ -1,0 +1,1 @@
+hehe i can print char or char array or string or int just at once. I am the most efficient writer here.
