@@ -1,0 +1,32 @@
+spring:
+  datasource:
+    name: 2root2
+    url: jdbc:mysql://127.0.0.1:3306/db33
+    username: root2
+    password: software
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        dialect:  org.hibernate.dialect.MySQL55Dialect
+server:
+  port: 9291
+  error:
+    include-binding-errors: always
+    include-message: always
+    
+    
+security:
+  oauth2:
+    client:
+      clientId: bd1c0a783ccdd1c9b9e4
+      clientSecret: 1a9030fbca47a5b2c28e92f19050bb77824b5ad1
+      accessTokenUri: https://github.com/login/oauth/access_token
+      userAuthorizationUri: https://github.com/login/oauth/authorize
+      clientAuthenticationScheme: form
+      
+      
+      
