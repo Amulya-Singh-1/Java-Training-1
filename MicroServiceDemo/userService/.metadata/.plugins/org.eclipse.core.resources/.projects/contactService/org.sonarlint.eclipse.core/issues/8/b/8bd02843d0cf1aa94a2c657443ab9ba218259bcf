@@ -1,0 +1,9 @@
+
+{
+java:S1192"MDefine a constant instead of duplicating this literal "uj@gmail.com" 3 times.(Ìêù H RCRITICALZ
+CODE_SMELL
+„	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³žë»H%RMINORZ
+CODE_SMELL
+}
+java:S6204"RReplace this usage of 'Stream.collect(Collectors.toList())' with 'Stream.toList()'(ù›í–H&RMAJORZ
+CODE_SMELL

@@ -1,0 +1,6 @@
+server:
+  port: 9294
+  
+spring:
+  application:
+    name: contact-service
