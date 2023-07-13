@@ -14,9 +14,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.test33.Entity.Employee;
+import com.test33.Service.MyUserDetailService;
 import com.test33.Service.ServiceImpl;
+import com.test33.customException.BadBodyFoundException;
 import com.test33.customException.NoEmployeeFoundException;
 import com.test33.customException.NoIdFoundException;
+import com.test33.payload.UserDto;
 
 @RestController
 public class myControllers {
@@ -29,7 +32,7 @@ public class myControllers {
 		return "this is our home page.";
 	}
 
-	@GetMapping("/get/{id}")
+	@GetMapping("/getEmployee/{id}")
 	public ResponseEntity<Employee> getEmployeeById(@Valid @PathVariable Integer id) {
 		return new ResponseEntity<Employee>(serviceObj.getEmployeeById(id), HttpStatus.ACCEPTED);
 	}

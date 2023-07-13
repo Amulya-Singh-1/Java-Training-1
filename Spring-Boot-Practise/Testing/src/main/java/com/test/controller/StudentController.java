@@ -9,18 +9,19 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.test.entity.Student;
 import com.test.service.StudentService;
+import com.test.service.StudentServiceImpl;
 
 @RestController
 public class StudentController {
 
 	@Autowired
-	private StudentService service;
+	private StudentServiceImpl service;
 
 	@GetMapping(path = "/hello")
 	public String hello() {
 		return "hello world";
 	}
-
+	
 	@PostMapping("/save")
 	Student saveStudent(@RequestBody Student student) {
 	 	return service.saveStudentData(student);
